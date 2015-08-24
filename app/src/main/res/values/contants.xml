@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- The width of small artist and album preview image -->
+  <integer name="small_icon_width">200</integer>
+
+  <!-- The height of small artist and album preview image -->
+  <integer name="small_icon_height">200</integer>
+
+  <!-- The width of large album image -->
+  <integer name="large_icon_width">640</integer>
+
+  <!-- The height of large album image -->
+  <integer name="large_icon_height">640</integer>
+
+</resources>

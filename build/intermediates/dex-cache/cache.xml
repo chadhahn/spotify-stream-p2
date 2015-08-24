@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/exploded-aar/spotify-web-api-android-0.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="adacf3169d5e56097ba1b88e5d08d5496c7a169b">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/classes-2527123936dd1b0ce3a0a17aabb0f3d3a81c3367.jar" />
+    </item>
+    <item
+        jar="/Users/chad/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-cd0ed367b589e9d1b90837d596119db19e01c524.jar" />
+    </item>
+    <item
+        jar="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-642b3ebd8dd1c2bb789acf3ebd816f9266d937eb.jar" />
+    </item>
+    <item
+        jar="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/classes-6fcb43061b8fc88570b614fb372bb9a95808d23a.jar" />
+    </item>
+    <item
+        jar="/usr/local/Cellar/android-sdk/24.3.3/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-8bb685a3207c730f6d8b341088da77da53d4b5f5.jar" />
+    </item>
+    <item
+        jar="/Users/chad/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/guava-18.0-76dcf944b151aed0a76ae77277014700c3a12411.jar" />
+    </item>
+    <item
+        jar="/Users/chad/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.2.0/959c454243581fdf730abfd4f4745441724bcf2c/okhttp-2.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="959c454243581fdf730abfd4f4745441724bcf2c">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/okhttp-2.2.0-7fa84914195174d0ec01ba1354ef546dd19862c1.jar" />
+    </item>
+    <item
+        jar="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/classes-01eb1684d607e22d6b695e2a0e0688da0b7caaff.jar" />
+    </item>
+    <item
+        jar="/Users/chad/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/gson-2.3.1-2f4596ad8a361183666c88dae67cb788122e5883.jar" />
+    </item>
+    <item
+        jar="/Users/chad/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.2.0/c0b52915a48fa91b1b94a28d4a2997bac5f524df/okio-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c0b52915a48fa91b1b94a28d4a2997bac5f524df">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/okio-1.2.0-4bb0e6ec06e7b740910d0720092598a8b5d81f29.jar" />
+    </item>
+    <item
+        jar="/Users/chad/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/chad/Downloads/spotify-stream-p1-master/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-cc28fcb0ab89e41c3555b8ee9f0715e91edc9c29.jar" />
+    </item>
+
+</items>

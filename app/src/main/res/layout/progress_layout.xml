@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Referenced this page http://stackoverflow.com/questions/18021148/display-a-loading-overlay-on-android-screen -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/progress_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:visibility="gone"
+    >
+
+  <ProgressBar
+      style="?android:attr/progressBarStyleLarge"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:indeterminate="true"
+      android:layout_marginTop="@dimen/top_margin_spacer"
+      android:layout_gravity="center_horizontal"
+      />
+
+</FrameLayout>

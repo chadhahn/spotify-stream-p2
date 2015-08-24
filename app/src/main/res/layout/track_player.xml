@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/track_player_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/track_player_top_margin" />
+
+        <TextView
+            android:id="@+id/track_player_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/track_player_image"
+            android:layout_width="@dimen/track_player_image_width"
+            android:layout_height="@dimen/track_player_image_height"
+            android:layout_marginLeft="@dimen/track_player_image_marginLeft"
+            android:layout_marginRight="@dimen/track_player_image_marginRight" />
+        />
+
+        <TextView
+            android:id="@+id/track_player_track_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/track_player_seek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/track_player_seek_marginLeft"
+            android:layout_marginRight="@dimen/track_player_seek_marginRight"
+            android:tint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/track_player_seek_bundle_marginLeft"
+            android:layout_marginRight="@dimen/track_player_seek_bundle_marginRight"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/track_player_low_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/track_player_seek_bar_start_value" />
+
+            <TextView
+                android:id="@+id/track_player_high_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/track_player_prev_button"
+                android:layout_width="@dimen/track_player_action_button_width"
+                android:layout_height="@dimen/track_player_action_button_height"
+                android:layout_margin="@dimen/track_player_action_button_margin"
+                android:src="@android:drawable/ic_media_previous"
+                android:tint="@color/black" />
+
+            <ImageButton
+                android:id="@+id/track_player_play_button"
+                android:layout_width="@dimen/track_player_action_button_width"
+                android:layout_height="@dimen/track_player_action_button_height"
+                android:layout_margin="@dimen/track_player_action_button_margin"
+                android:clickable="false"
+                android:src="@android:drawable/ic_media_play"
+                android:tint="@color/black" />
+
+            <ImageButton
+                android:id="@+id/track_player_next_button"
+                android:layout_width="@dimen/track_player_action_button_width"
+                android:layout_height="@dimen/track_player_action_button_height"
+                android:layout_margin="@dimen/track_player_action_button_margin"
+                android:src="@android:drawable/ic_media_next"
+                android:tint="@color/black" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

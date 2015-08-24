@@ -1,0 +1,22 @@
+<resources>
+  <!-- Default screen margins, per the Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+  <dimen name="top_margin_spacer">75dp</dimen>
+  <dimen name="row_detail_width">50dp</dimen>
+  <dimen name="row_detail_height">50dp</dimen>
+  <dimen name="row_detail_layout_margin">14dp</dimen>
+
+  <dimen name="track_player_top_margin">20dp</dimen>
+  <dimen name="track_player_image_width">250dp</dimen>
+  <dimen name="track_player_image_height">250dp</dimen>
+  <dimen name="track_player_image_marginLeft">100dp</dimen>
+  <dimen name="track_player_image_marginRight">100dp</dimen>
+  <dimen name="track_player_seek_marginLeft">20dp</dimen>
+  <dimen name="track_player_seek_marginRight">20dp</dimen>
+  <dimen name="track_player_seek_bundle_marginLeft">20dp</dimen>
+  <dimen name="track_player_seek_bundle_marginRight">20dp</dimen>
+  <dimen name="track_player_action_button_width">75dp</dimen>
+  <dimen name="track_player_action_button_height">75dp</dimen>
+  <dimen name="track_player_action_button_margin">20dp</dimen>
+</resources>
