@@ -51,6 +51,7 @@ public class TrackPlayerDialogFragment extends DialogFragment
     private SeekBar seekBar;
     private Handler durationHandler = new Handler();
     private double timeElapsed = 0;
+    private TextView trackLowText;
     private TextView trackHighText;
 
     @Override
@@ -123,6 +124,7 @@ public class TrackPlayerDialogFragment extends DialogFragment
             }
         });
 
+        trackLowText = (TextView) root.findViewById(R.id.track_player_low_text);
         trackHighText = (TextView) root.findViewById(R.id.track_player_high_text);
         return root;
     }
@@ -142,6 +144,8 @@ public class TrackPlayerDialogFragment extends DialogFragment
             if (mediaPlayer != null) {
                 timeElapsed = mediaPlayer.getCurrentPosition();
                 seekBar.setProgress((int) timeElapsed);
+                int seconds = ((int) timeElapsed / 1000) % 60;
+                trackLowText.setText(String.format("0:%02d", seconds));
                 durationHandler.postDelayed(this, 100);
             }
         }
